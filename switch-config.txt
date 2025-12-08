@@ -1,3 +1,5 @@
 "This is a test config" 
+
 vlan 10 name Marketing
+
 "vlan 20 name Voice"
