@@ -1,0 +1,15 @@
+name: My First Robot
+
+# متى يعمل الروبوت؟ (عند عمل Push)
+on: [push]
+
+# ما هي المهمة؟
+jobs:
+  say-hello:
+    # أين يعمل؟ (على جهاز أوبونتوافتراضي)
+    runs-on: ubuntu-latest
+    
+    # الخطوات
+    steps:
+      - name: Say Hello
+        run: echo "Hello Engineer! I received your code successfully 🤖"
